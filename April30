@@ -1,0 +1,28 @@
+
+
+def bottom
+  i=0
+  while i < 8
+    puts
+    30.times {print "~"}<< 1.times {print "|"} 
+  i +=1
+  end
+end
+
+def top
+  i=0
+  while i < 5
+    puts
+    10.times {print"*"}<< 20.times {print"~"}<< 1.times{print "|"}
+    i +=1
+  end
+end
+
+30.times {print "_"}
+top
+bottom
+puts 
+30.times {print "_"}
+
+
+ 
