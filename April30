@@ -1,5 +1,4 @@
 
-
 def bottom
   i=0
   while i < 8
@@ -23,6 +22,7 @@ top
 bottom
 puts 
 30.times {print "_"}
+puts
 
 
  
